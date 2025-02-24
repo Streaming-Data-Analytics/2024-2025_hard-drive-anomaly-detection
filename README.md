@@ -15,16 +15,16 @@ Real-time data analysis is crucial for detecting anomalies in financial systems,
 ## **Datasets**  
 The data is provided by the **DEBS Grand Challenge 2024** (details available [here](https://2024.debs.org/call-for-grand-challenge-solutions/)).  
 
-#### **Methodologies/Models to Apply**  
+## **Methodologies/Models to Apply** (at least one)  
 - **Threshold- and statistics-based methods** using **Esper, Spark Structured Streaming** (or an equivalent Stream Processor).  
 - **Streaming Machine Learning** with **River, MOA, or CapyMOA** to detect anomalies adaptively.  
 
-#### **Evaluation Metrics**  
+## **Evaluation Metrics**  
 - **Precision/Recall** for anomaly detection accuracy.  
 - **Latency** under varying workload conditions.  
 - **Throughput** of event processing.  
 
-#### **Deliverable**  
+## **Deliverable**  
 A report detailing the adopted approach, implemented code, and system performance evaluation.  
 
 For complete details: [DEBS Grand Challenge 2024](https://2024.debs.org/call-for-grand-challenge-solutions/)
