@@ -1,29 +1,33 @@
-# XXXX-XXXX Project-Title
+# 2024-2025 Real-time Hard Drive Anomaly Detection
 
 Optional project of the [Streaming Data Analytics](https://emanueledellavalle.org/teaching/streaming-data-analytics-2024-25/) course provided by [Politecnico di Milano](https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=837284&__pj0=0&__pj1=36cd41e96fcd065c47b49d18e46e3110).
 
 Student: **[To be assigned]**
 
-## Note for Professors/assistants
+## **Background**  
+Real-time data analysis is crucial for detecting anomalies in financial systems, industrial processes, and IoT networks. This project focuses on processing streaming data to efficiently identify unusual patterns.  
 
-Professors/assistants must use this template to create a new repository to be assigned to the student to carry out the project. This is the normal process that you will have to follow in order to interact with the template:
+## **Goals and Objectives**  
+- Implement an anomaly detection system for streaming data.  
+- Compare different methodologies for real-time anomaly detection.  
+- Evaluate system performance using real or synthetic datasets.  
 
-* Click on the **Use this template** button;
-* Create a new repository in this organization;
-* Rename it replace **XXXX-XXXX** with the years of the course, **Project-Title** with the project number and title i.e., `2023-2024_1-SMLForSomething`;
-* Add a description;
-* Make it public;
-* Update this Readme file with the project description document;
-* Add the selected student as a collaborator.
+## **Datasets**  
+The data is provided by the **DEBS Grand Challenge 2024** (details available [here](https://2024.debs.org/call-for-grand-challenge-solutions/)).  
 
-## README structure
+#### **Methodologies/Models to Apply**  
+- **Threshold- and statistics-based methods** using **Esper, Spark Structured Streaming** (or an equivalent Stream Processor).  
+- **Streaming Machine Learning** with **River, MOA, or CapyMOA** to detect anomalies adaptively.  
 
-* Background
-* Goals and objectives
-* Datasets
-* Methodologies/models to apply
-* Evaluation metrics
-* Deliverable 
+#### **Evaluation Metrics**  
+- **Precision/Recall** for anomaly detection accuracy.  
+- **Latency** under varying workload conditions.  
+- **Throughput** of event processing.  
+
+#### **Deliverable**  
+A report detailing the adopted approach, implemented code, and system performance evaluation.  
+
+For complete details: [DEBS Grand Challenge 2024](https://2024.debs.org/call-for-grand-challenge-solutions/)
 
 ## Note for Students
 
