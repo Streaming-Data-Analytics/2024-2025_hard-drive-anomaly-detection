@@ -1,4 +1,4 @@
-# 2024-2025 Real-time Hard Drive Anomaly Detection
+# 2024-2025 Real-time Hard Drive Anomaly Detection Using Statistics-based Methods
 
 Optional project of the [Streaming Data Analytics](https://emanueledellavalle.org/teaching/streaming-data-analytics-2024-25/) course provided by [Politecnico di Milano](https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=837284&__pj0=0&__pj1=36cd41e96fcd065c47b49d18e46e3110).
 
@@ -9,15 +9,14 @@ Real-time data analysis is crucial for detecting anomalies in financial systems,
 
 ## **Goals and Objectives**  
 - Implement an anomaly detection system for streaming data.  
-- Compare different methodologies for real-time anomaly detection.  
 - Evaluate system performance using real or synthetic datasets.  
 
 ## **Datasets**  
 The data is provided by the **DEBS Grand Challenge 2024** (details available [here](https://2024.debs.org/call-for-grand-challenge-solutions/)).  
 
-## **Methodologies/Models to Apply** (at least one)  
-- **Threshold- and statistics-based methods** using **Esper, Spark Structured Streaming** (or an equivalent Stream Processor).  
-- **Streaming Machine Learning** with **River, MOA, or CapyMOA** to detect anomalies adaptively.  
+## **Methodologies/Models to Apply** 
+
+**Statistics-based methods** (e.g., continuous z-score) using **Esper, Spark Structured Streaming** (or an equivalent Stream Processor).  
 
 ## **Evaluation Metrics**  
 - **Precision/Recall** for anomaly detection accuracy.  
